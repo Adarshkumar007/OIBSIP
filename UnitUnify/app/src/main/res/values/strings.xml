@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UnitUnify</string>
+    <string name="developed_b">Developed By</string>
+    <string name="adarsh_kuma">ADARSH KUMAR</string>
+    <string name="select_the_">SELECT THE OPTIONS BELOW</string>
+    <string name="BUTTON">CONVERT</string>
+
+    <string-array name="unit">
+        <item>centimeters to Meters</item>
+        <item>Meters to centimeters</item>
+        <item>Meters to Kilometers</item>
+        <item>Kilometers to Meters</item>
+        <item>centimeters to Kilometers</item>
+        <item>Kilometers to centimeters</item>
+        <item>Grams to Kilograms</item>
+        <item>Kilograms to Grams</item>
+        <item>Rs(India) to Dollar(USA)</item>
+        <item>Dollar(USA) to Rs(India)</item>
+
+    </string-array>
+
+
+</resources>

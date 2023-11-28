@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384178569681",
+    "project_id": "taskmaster-cbaf3",
+    "storage_bucket": "taskmaster-cbaf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384178569681:android:d3a8666fd642d89e0420f0",
+        "android_client_info": {
+          "package_name": "com.example.taskmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYoaK2BJsgo4f8LLcISVDLUr0QQxV21lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

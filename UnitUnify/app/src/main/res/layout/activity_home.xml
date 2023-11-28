@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/rectangle3"
+    tools:context=".home">
+
+    <RelativeLayout
+        android:layout_width="345dp"
+        android:layout_height="574dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/rectangle4"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="232dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="49dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="87dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="441dp"
+            android:background="@drawable/rectangle5"
+            android:gravity="center"
+            android:text="@string/select_the_"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="251dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="167dp"
+            android:paddingLeft="10dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="360dp"
+            android:background="@drawable/rectangle5" />
+
+        <EditText
+            android:id="@+id/edInput"
+            android:layout_width="255dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="238dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rectangle5"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edOutput"
+            android:layout_width="254dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="396dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="128dp"
+            android:background="@drawable/rectangle5"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:focusableInTouchMode="false"
+            android:ems="10"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="190dp"
+            app:srcCompat="@drawable/arrow" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/convertButton"
+            android:layout_width="140dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="486dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/buttonback"
+            android:gravity="center"
+            android:text="@string/BUTTON"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+</RelativeLayout>
